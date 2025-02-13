@@ -1,0 +1,19 @@
+[versions]
+kotlin = "2.1.0"
+fabric-loom = "1.8-SNAPSHOT"
+iridium = "3.3.2"
+
+modmenu = "11.0.3"
+emi = "1.1.18+1.21.1"
+
+[libraries]
+modmenu = { module = "com.terraformersmc:modmenu", version.ref = "modmenu" }
+emi = { module = "dev.emi:emi-fabric", version.ref = "emi" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+fabric-loom = { id = "fabric-loom", version.ref = "fabric-loom" }
+iridium = { id = "org.teamvoided.iridium", version.ref = "iridium"}
+iridium-publish = { id = "iridium.project.publish-script", version.ref = "iridium"}
+iridium-upload = { id = "iridium.mod.upload-script", version.ref = "iridium" }
