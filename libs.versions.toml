@@ -5,10 +5,12 @@ iridium = "3.3.2"
 
 modmenu = "11.0.3"
 emi = "1.1.18+1.21.1"
+alchimiae = "0.2.5-1.21-fabric"
 
 [libraries]
 modmenu = { module = "com.terraformersmc:modmenu", version.ref = "modmenu" }
 emi = { module = "dev.emi:emi-fabric", version.ref = "emi" }
+alchimiae = { module = "maven.modrinth:alchimiae-magicae", version.ref = "alchimiae" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }

@@ -23,6 +23,8 @@ repositories {
     maven("https://teamvoided.org/releases")
     maven("https://maven.terraformersmc.com/") { name = "Terraformers" }
     mavenCentral()
+
+    maven("https://api.modrinth.com/maven") { name = "Modrinth" }
 }
 
 println("Task: " + gradle.startParameter.taskNames.joinToString(","))
@@ -43,6 +45,8 @@ dependencies {
 
     modCompileOnly("${libs.emi.get()}:api")
     modLocalRuntime(libs.emi)
+
+    modImplementation(libs.alchimiae)
 }
 
 loom {
