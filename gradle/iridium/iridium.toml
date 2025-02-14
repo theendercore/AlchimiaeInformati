@@ -1,6 +1,6 @@
-projectTitle = "Team Voided Template"
-modId = "template"
-githubRepo = "Teamvoided/TeamVoidedTemplateMod"
+projectTitle = "AlchimiaeInformati"
+modId = "alchimiae_informati"
+githubRepo = "theendercore/AlchimiaeInformati"
 discordServerInviteId = "KZ5Q364hEg"
 authors = [ "TheEnderCore" ]
 majorMinecraftVersion = "1.21"

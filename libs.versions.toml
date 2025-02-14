@@ -1,5 +1,5 @@
 [versions]
-kotlin = "2.1.0"
+kotlin = "2.0.0"
 fabric-loom = "1.8-SNAPSHOT"
 iridium = "3.3.2"
 
