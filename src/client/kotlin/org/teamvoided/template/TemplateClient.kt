@@ -48,7 +48,8 @@ data class IconRendererTooltip(val potions: List<Holder<StatusEffect>?>) : Toolt
                         x - 2, y - 2 + (bigSize() * index), 0, bigSize(), bigSize(), sprites.getSprite(holder)
                     )
                     graphics.drawText(
-                        textRenderer, Text.translatable(holder.value().translationKey),
+                        textRenderer,
+                        holder.value().name.copy().styled { it.withFormatting(holder.value().type.formatting) },
                         x + bigSize(), y + 3 + (bigSize() * index), -1, false
                     )
                 }
